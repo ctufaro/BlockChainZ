@@ -1,0 +1,6 @@
+C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Mine\bin\Debug\BlockChainZ.Console.Mine.exe.config
+C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Mine\bin\Debug\BlockChainZ.Console.Mine.exe
+C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Mine\bin\Debug\BlockChainZ.Console.Mine.pdb
+C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Mine\obj\Debug\BlockChainZ.Console.Mine.csprojResolveAssemblyReference.cache
+C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Mine\obj\Debug\BlockChainZ.Console.Mine.exe
+C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Mine\obj\Debug\BlockChainZ.Console.Mine.pdb

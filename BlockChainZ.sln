@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockChainZ.Console.Node", "BlockChainZ.Console.Node\BlockChainZ.Console.Node.csproj", "{44A31C1D-84FC-4510-BFB8-8B741D46317E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockChainZ.Console.Mine", "BlockChainZ.Console.Mine\BlockChainZ.Console.Mine.csproj", "{A60295BC-A257-44CF-B1F1-C314E80EF921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44A31C1D-84FC-4510-BFB8-8B741D46317E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A31C1D-84FC-4510-BFB8-8B741D46317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A31C1D-84FC-4510-BFB8-8B741D46317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A31C1D-84FC-4510-BFB8-8B741D46317E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60295BC-A257-44CF-B1F1-C314E80EF921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60295BC-A257-44CF-B1F1-C314E80EF921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60295BC-A257-44CF-B1F1-C314E80EF921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60295BC-A257-44CF-B1F1-C314E80EF921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
