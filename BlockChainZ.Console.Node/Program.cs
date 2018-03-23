@@ -11,7 +11,7 @@ namespace BlockChainZ.Console.Node
         static void Main(string[] args)
         {
             var chain = new BlockChain();
-            var server = new WebServer(chain);
+            var server = new WebServer(chain, args[0]);
             System.Console.Read();
         }
     }

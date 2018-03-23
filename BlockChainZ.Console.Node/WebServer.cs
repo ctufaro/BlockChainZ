@@ -8,11 +8,12 @@ namespace BlockChainZ.Console.Node
 {
     public class WebServer
     {
-        public WebServer(BlockChain chain)
+        public WebServer(BlockChain chain, string port)
         {
             var settings = ConfigurationManager.AppSettings;
             string host = settings["host"]?.Length > 1 ? settings["host"] : "localhost";
-            string port = settings["port"]?.Length > 1 ? settings["port"] : "12345";
+            //string port = settings["port"]?.Length > 1 ? settings["port"] : "12345";
+            
 
             var server = new TinyWebServer.WebServer(request =>
                 {
@@ -49,6 +50,7 @@ namespace BlockChainZ.Console.Node
 
                         //POST: http://localhost:12345/nodes/register
                         //{ "Urls": ["localhost:54321", "localhost:54345", "localhost:12321"] }
+                        //curl -H "Content-Type: application/json" -X POST -d '{ "Urls": ["localhost:54321"] }' http://localhost:12345/nodes/register
                         case "/nodes/register":
                             if (request.HttpMethod != HttpMethod.Post.Method)
                                 return $"{new HttpResponseMessage(HttpStatusCode.MethodNotAllowed)}";
@@ -56,6 +58,7 @@ namespace BlockChainZ.Console.Node
                             json = new StreamReader(request.InputStream).ReadToEnd();
                             var urlList = new { Urls = new string[0] };
                             var obj = JsonConvert.DeserializeAnonymousType(json, urlList);
+                            System.Console.WriteLine("New player joined: " + json);                            
                             return chain.RegisterNodes(obj.Urls);
 
                         //GET: http://localhost:12345/nodes/resolve

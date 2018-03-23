@@ -4,6 +4,5 @@ C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Node\bin\Debu
 C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Node\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Node\bin\Debug\TinyWebServer.dll
 C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Node\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Node\obj\Debug\BlockChainZ.Console.Node.csprojResolveAssemblyReference.cache
 C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Node\obj\Debug\BlockChainZ.Console.Node.exe
 C:\Users\ctufaro_admin\My Projects\BlockChainZ\BlockChainZ.Console.Node\obj\Debug\BlockChainZ.Console.Node.pdb
